@@ -1,13 +1,16 @@
 const x = 50;
 
+let message;
 const message1 = "X > 100";
 const message2 = "X is mediocre";
 const message3 = "X is small";
 
 if (x >= 100) {
-  console.log(message1.toUpperCase());
+  message = message1;
 } else if (x > 30) {
-  console.log(message2.toUpperCase());
+  message = message2;
 } else {
-  console.log(message3.toUpperCase());
+  message = message3;
 }
+
+console.log(message);
