@@ -1,15 +1,13 @@
-let score;
-
 function add(a, b) {
-  score = a + b;
-  score % 2 == 0 ? even() : odd();
+  const score = a + b;
+  score % 2 == 0 ? even(score) : odd(score);
 }
 
-function even() {
+function even(score) {
   console.log(`Number ${score} is even`);
 }
 
-function odd() {
+function odd(score) {
   console.log(`Number ${score} is odd`);
 }
 
