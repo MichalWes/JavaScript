@@ -7,9 +7,8 @@ for (let i = 1; i <= 10; i++) {
   list.append(listElement);
 }
 
-const listElements = document.querySelectorAll("li");
-const last = listElements[listElements.length - 1];
+const last = document.querySelector("li:last-child");
 last.textContent = "Jestem ostatnim elementem z listy";
 last.style.padding = "20px 40px";
 last.style.fontSize = "48px";
-last.style.backgroundColor = "blue";
+last.style.backgroundColor = "royalblue";
