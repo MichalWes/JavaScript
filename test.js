@@ -1,4 +1,4 @@
-const days = ["monday", "tuesday", "wednesday"];
-days.forEach((day, i) => console.log(i + " " + day));
-
-console.log(name);
+let vsechno = document.querySelector("body");
+console.log(vsechno);
+let component = vsechno.closest("div");
+console.log(component);
